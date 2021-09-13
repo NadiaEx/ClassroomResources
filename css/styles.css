@@ -83,6 +83,7 @@ header {
 ------------------------------------*/
 .projects {
   background: #F7FFF7;
+  text-align: center;
 }
 .projects a {
   color: #2F3061;
@@ -92,8 +93,8 @@ header {
   background: #2F3061;
   text-decoration: none;
   padding: 8px;
-  border-radius: 4px;
-  display: inline-block;
+  border-radius: 6px;
+  /* display: inline-block; */
 }
 .projects .btn:hover {
   background: rgba(47, 48, 97, 80%);
@@ -101,29 +102,13 @@ header {
 .project-item {
   overflow: hidden;
 }
-.project-item img {
-  float: left;
-  margin-right: 20px;
-}
+
 .project-item h3 {
   margin-top: 0;
+  text-align: center;
 }
 
 
-/* Work Experience
-------------------------------------*/
-.work-experience {
-  background: #A1C6D7;
-}
-.job-item {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  column-gap: 20px;
-}
-
-
-/* Education
-------------------------------------*/
 
 
 
